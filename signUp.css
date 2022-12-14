@@ -1,0 +1,24 @@
+#logo_nav{
+    margin: auto;
+}
+.signIn{
+    width: 400px;
+    margin: auto;
+}
+.email_pass{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius:10px ;
+    margin-bottom: 10px;
+    border-color: rgb(90, 89, 89);
+}
+.signUp button{
+    border: none;
+    background-color: #3662d8;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px 15px;
+    font-size:large;
+}
