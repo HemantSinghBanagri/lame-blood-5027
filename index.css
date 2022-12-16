@@ -576,6 +576,18 @@ width: 65%;
     margin: auto;
     margin-bottom: 51px;
 }                                  
+<<<<<<< HEAD
 
+=======
+.input_button .fa-solid{
+padding-right: 5px;
+}
+.fa-user{
+    position: relative;
+    left: 30px;
+    top: 10px;
+    margin-left: 10px;
+}
+>>>>>>> day-2
 
         
