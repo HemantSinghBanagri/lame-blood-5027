@@ -1,4 +1,4 @@
-var passIn=document.querySelector("#passwrd");
+var passIn=document.querySelector("#password");
 var seePass=document.querySelector("#seen");
 seePass.addEventListener("click",function(){
     var type=passIn.getAttribute("type")
@@ -38,7 +38,7 @@ loginForm.addEventListener("submit",function(){
    var LoginData={
        email:loginForm.email.value,
       
-       passwrd:loginForm.passwrd.value,
+       password:loginForm.password.value,
    }
 
 if( getUserData==null){
@@ -46,12 +46,12 @@ if( getUserData==null){
 }
 
 else{
-if( LoginData.email===""||LoginData.passwrd===""){
+if( LoginData.email===""||LoginData.password===""){
  
  p.innerText="Please Fill All The Information !";
  show_alert.classList.remove("visible-alert")
  
- inpt.forEach(function(inpt){
+ inpt(function(inpt){
     inpt.style.borderColor="red";
     inpt.style.borderWidth="2px"
  })
@@ -62,7 +62,7 @@ else{
     var flagpass
     for(var i=0;i<getUserData.length;i++){
         console.log(LoginData.email)
-    if(LoginData.email===getUserData[i].email&&LoginData. passwrd===getUserData[i]. passwrd){
+    if(LoginData.email===getUserData[i].email&&LoginData. password===getUserData[i]. password){
         var user=getUserData[i].Fname
        
       localStorage.setItem("Username",JSON.stringify( user))
@@ -83,8 +83,9 @@ else{
     
     show_alert.classList.remove("visible-alert")
     
+    window.location.href="../index.html";
    
-    window.location.href="landing.html";
+   
    
    }
 

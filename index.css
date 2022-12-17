@@ -295,6 +295,7 @@ width: 65%;
       
        
     }
+   
   
     #box-sizing{
         height: 270px;
@@ -306,10 +307,10 @@ width: 65%;
        margin-top: 5%;
         background-image: url("https://a.travel-assets.com/travel-assets-manager/gmvd-1482-bookearly-emea/667x320.jpg");
         background-repeat: no-repeat;
-   
-  background-size: 115% 130%;
-  height: 100%;
- overflow: hidden;
+     background-size: 100% 100%;
+     width: 100%;
+     height: 100%;
+       overflow: hidden;
  border-radius: 8px;
  }
     #bg-img2+div{
@@ -467,6 +468,20 @@ width: 65%;
       width: 78%;
      
   }
+  .signIn-pop a{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .signIn-pop img{
+    display: block;
+margin: auto;
+padding-bottom: 20px;
+  }
+  #redt-signUp{
+    background-color: white;
+    color: #184bda;
+  }
 
 
 
@@ -576,18 +591,20 @@ width: 65%;
     margin: auto;
     margin-bottom: 51px;
 }                                  
-<<<<<<< HEAD
 
-=======
 .input_button .fa-solid{
-padding-right: 5px;
-}
-.fa-user{
-    position: relative;
-    left: 30px;
-    top: 10px;
-    margin-left: 10px;
-}
->>>>>>> day-2
-
+    padding-right: 10px;
+    }
+    .fa-user,.fa-calendar{
+        position: relative;
+        left: 10px;
         
+        margin-left: 10px;
+    }
+    
+.extra a{
+  display: block;
+  text-decoration: none;
+  padding-bottom:20px ;
+  color: black;
+}

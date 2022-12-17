@@ -91,7 +91,7 @@ p.innerText="";
     inpt.style.borderWidth="1px"
  })
  
- window.location.href="welcome.html"
+ window.location.href="../signup_login/welcome.html"
 
 }
 })

@@ -157,7 +157,7 @@
     cursor: pointer;
 }
 
-#alert1,#alert2,#alert3,#alert4,#alert5,#p-email,#pss-wrd{
+#alert1,#alert2,#alert3,#alert4,#alert5,#alert,#p-email,#pss-wrd{
     color: red;
     text-align: center;
     margin-bottom: 10px;
